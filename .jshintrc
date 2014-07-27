@@ -1,0 +1,10 @@
+{
+  "-W097": true, // Ignores "use strict" warning
+  "browser": true,
+  "devel": true,
+  "jquery": true,
+  "validthis": true, // Avoids a warning using `this`
+  "globals": {
+    "Stripe": true
+  }
+}

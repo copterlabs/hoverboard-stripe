@@ -1,0 +1,29 @@
+{
+  "name": "hoverboard-stripe",
+  "version": "0.1.0",
+  "homepage": "https://github.com/copterlabs/hoverboard-stripe",
+  "authors": [
+    "Jason Lengstorf <jason@copterlabs.com>"
+  ],
+  "description": "For accepting Stripe payments.",
+  "main": "hoverboard-stripe.php",
+  "keywords": [
+    "stripe",
+    "wordpress",
+    "payment"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "lib",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "mustache": "bobthecow/mustache.php",
+    "stripe-php": "stripe/stripe-php#~1.16.0"
+  }
+}
